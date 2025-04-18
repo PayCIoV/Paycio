@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PayCioAutomation(failed)">
+    <classes>
+      <class name="Tests.HistoryTest">
+        <methods>
+          <include name="setUpLoginClass"/>
+          <include name="ConfigureAppium"/>
+          <include name="HistoryTestScenario"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tests.HistoryTest -->
+    </classes>
+  </test> <!-- PayCioAutomation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

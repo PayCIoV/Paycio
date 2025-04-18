@@ -1,0 +1,7 @@
+<suite name="TestSuite" verbose="1" preserve-order="true" parallel="false" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="UtilityMethods.ScreenshotListener"/>
+        <listener class-name="UtilityMethods.TestListener"/>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+    </listeners>
+    </suite>
